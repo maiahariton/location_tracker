@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Location Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="table">
+    <div class="table-cell">
+        <div class="box">
+            <div class="row">
+                <div class="col4 sidebar">
+                    <ul>
+                        <li class="active"><span>Pick up</span></li>
+                        <li class="active"><span>In transit</span></li>
+                        <li class="active current"><span>Out for delivery</span></li>
+                        <li><span>Delivered</span></li>
+                    </ul>
+                </div>
+                <div class="col8 mapbox">
+                    <div class="map"></div>
+                    <div id="dot">
+                        <div class="ping"></div>
+                    </div>
+                    <div id="number">
+                        <div>Tracking Number:</div> 3322 1231 9838 1290 0099 45</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col6">
+                    <h2>From</h2>
+                    <div class="address">60 berkshire park drive
+                        <br> Chicago, IL 60606-2806</div>
+                </div>
+                <div class="col6">
+                    <h2>To</h2>
+                    <div class="address">60 berkshire park drive
+                        <br> Chicago, IL 60654-3557</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="location.js"></script>
+</body>
+</html>
